@@ -1,7 +1,9 @@
-.bodeHeader{
-    width: 100vw;
+.bodyHeader{
+    width: 100%;
     height: 75px;
     background-color: rgb(64, 64, 64);
+    position:sticky;
+    top: 0;
 }
 .navBackground{
     width: 1366px;

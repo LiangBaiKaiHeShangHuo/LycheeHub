@@ -10,21 +10,29 @@
             margin: 0;
             padding: 0;
             border: 0;
-            overflow: hidden;
         }
 
         html {
             width: 100vw;
         }
+
+        body {
+            background-image: url("./src/img/background.png");
+            background-size: 100% !important;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
     </style>
     <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/main.css">
     <script src="./src/js/jquery-3.7.1.js"></script>
 </head>
 
 <body>
-    <header class="bodeHeader">
+    <header class="bodyHeader">
         <nav class="navBackground">
-            <img src="./src/img/breakButton.png" alt="breakButton" width="50px" height="50px" class="imgBreakButton" style="margin-top: 15px;">
+            <img src="./src/img/breakButton.png" alt="breakButton" width="50px" height="50px" class="imgBreakButton"
+                style="margin-top: 15px;">
             <p class="navTitle">个人简历</h1>
             <ul class="navUl">
                 <li class="navLi">主页</li>
@@ -38,17 +46,21 @@
         </nav>
     </header>
 
-    <main>
-
+    <main class="bodyMain">
+        <div class="bodyMain-left">
+            <img src="./src/img/headPortrait.jpg" alt="headPortrait" width="200px" height="200px" style="border-radius: 50%;" class="mian-left-headPortrait">
+            <h2 class="mian-left-nameText">LBKHSH</h2>
+            <p class="mian-left-describeText">「无人相陪，此般花鸟余情，也不过衬托我身不移不变的背景罢。」</p>
+        </div>
+        <div class="bodyMain-right">
+            <!-- <img src="./src/img/headPortrait.jpg" alt="headPortrait" width="250px" height="250px" style="border-radius: 50%;"> -->
+        </div>
     </main>
 
     <footer></footer>
 
-    <script>
-        $('.imgBreakButton').click(function () {
-            alert("hello")
-        })
-    </script>
+    <script src="./src/js/eventListening.js"></script>
+    <script src="./src/js/immediateExecution.js"></script>
 </body>
 
 </html>
