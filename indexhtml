@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX</title>
+</head>
+<body>
+    <div class="boxRed" style="background-color: red;width: 100px;height: 50px;">
+      <h2>你好，黄孟</h2>
+    </div>
+</body>
+</html>
