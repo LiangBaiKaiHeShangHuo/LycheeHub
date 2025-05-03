@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LycheeHub</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            overflow: hidden;
+        }
+
+        html {
+            width: 100vw;
+        }
+    </style>
+    <link rel="stylesheet" href="./src/css/header.css">
+    <script src="./src/js/jquery-3.7.1.js"></script>
 </head>
+
 <body>
-    <h1>hello world!</h1>
-    <h2>创作者:LBKHSH</h2>
-    <h2>工作室地址:长江艺术工程职业技术学院六栋456</h2>
+    <header class="bodeHeader">
+        <nav class="navBackground">
+            <img src="./src/img/breakButton.png" alt="breakButton" width="50px" height="50px" class="imgBreakButton" style="margin-top: 15px;">
+            <p class="navTitle">个人简历</h1>
+            <ul class="navUl">
+                <li class="navLi">主页</li>
+                <li class="navLi">项目</li>
+                <li class="navLi">经验</li>
+                <li class="navLi">联系</li>
+                <li class="navLi">博客</li>
+                <li class="navLi">其他</li>
+            </ul>
+            <img src="./src/img/setButton.png" alt="setButton" width="50px" height="50px">
+        </nav>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer></footer>
+
+    <script>
+        $('.imgBreakButton').click(function () {
+            alert("hello")
+        })
+    </script>
 </body>
+
 </html>
