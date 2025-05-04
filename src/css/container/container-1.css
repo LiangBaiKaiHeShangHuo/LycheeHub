@@ -1,0 +1,15 @@
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+    header>nav{
+        justify-content: space-around !important;
+    }
+    header>nav>ul li{
+        display: none !important;
+    }
+    header>nav>ul li[class=setButton]{
+        display: flex !important;
+        width: 30px;
+    }
+}
