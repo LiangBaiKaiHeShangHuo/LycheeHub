@@ -1,10 +1,7 @@
 $(window).resize(function(){
     if(window.innerWidth<768){
-        $('.setButton>img').attr("src","./src/img/header/toolButton.png")
+        $('.toolButton').css("display","flex")
     }else{
-        $('.setButton>img').attr("src","./src/img/header/setButton.png")
+        $('.toolButton').css("display","none")
     }
 })
-if(window.innerWidth<768){
-    $('.setButton>img').attr("src","./src/img/header/toolButton.png")
-}
