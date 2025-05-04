@@ -5,3 +5,6 @@ $(window).resize(function(){
         $('.setButton>img').attr("src","./src/img/header/setButton.png")
     }
 })
+if(window.innerWidth<768){
+    $('.setButton>img').attr("src","./src/img/header/toolButton.png")
+}
