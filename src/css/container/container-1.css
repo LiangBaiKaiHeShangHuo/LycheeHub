@@ -2,10 +2,24 @@
     .container {
         width: 100%;
     }
-    header>nav{
-        justify-content: space-around !important;
-    }
-    .header-nav-ul{
+
+    .header-nav-ul,
+    .callMe,
+    hr {
         display: none;
     }
+
+    header>nav {
+        justify-content: space-around !important;
+    }
+
+    main {
+        flex-direction: column !important;
+    }
+
+    /* .main-div-left>ul {
+        flex-direction: row !important;
+    } */
+
+
 }
