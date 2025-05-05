@@ -1,0 +1,38 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-div-left,
+.main-div-right {
+    height: 100%;
+}
+
+.main-div-left {
+    flex: 1;
+    background-color: rgb(139, 136, 144);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.main-div-left>ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.main-div-left>ul li {
+    list-style: none;
+}
+
+.main-div-left-ul-li-infoText{
+    text-align: left;
+    padding: 0 15px 0 15px;
+}
+
+.main-div-right {
+    flex: 3;
+    background-color: aquamarine
+}

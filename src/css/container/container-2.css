@@ -5,4 +5,7 @@
     .bottomPut{
         display: none !important;
     }
+    .main-div-left{
+        flex: 2 !important;
+    }
 }
